@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block header %}
+    <h1>{% block title %}New entry{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+    <form method="post">
+        <label for="name">Name</label>
+        <input name="name" id="name" value="{{ request.form['name'] }}" required>
+
+        <label for="name">Date of birth</label>
+        <input name="birth_date" id="birth_date" type="date" required>
+
+        <label for="birthday">Birthday</label>
+        <input name="event_type" id="birthday" type="radio" value="birthday">
+        
+        <label for="nameday">Nameday</label>
+        <input name="event_type" id="nameday" type="radio" value="nameday">
+    
+        <input type="submit" value="Save">
+    </form>
+{% endblock %}

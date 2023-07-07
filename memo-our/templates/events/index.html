@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block header %}
+    <h1>{% block title %}Events{% endblock %}</h1>
+    {% if g.user %}
+        <a class="action" href="{{ url_for('events.create') }}">New</a>
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+    {% if events %}
+
+    <table>
+        <h3>Upcoming events</h3>
+        {% for event in events %}
+            {% if event.remaining_days >= 0 %}
+            <tr>
+                <th class="name">{{ event['name'] }}</th>
+                <th>{{ event['birth_date'] }}</th>
+                <th>{{ event['remaining_days'] }}</th>
+            </tr>
+            {% endif %}
+
+            {% if not loop.last %}
+                <hr>
+            {% endif %}
+        {% endfor %}
+    </table>
+
+    <table>
+        <h3>Completed events</h3>
+        {% for event in events %}
+            {% if event.remaining_days < 0 %}
+            <tr>
+                <th class="name">{{ event['name'] }}</th>
+                <th>{{ event['birth_date'] }}</th>
+                <th>{{ event['remaining_days'] + 365 }}</th>
+            </tr>
+            {% endif %}
+
+            {% if not loop.last %}
+                <hr>
+            {% endif %}
+        {% endfor %}
+    </table>
+
+    {% endif %}
+{% endblock %}

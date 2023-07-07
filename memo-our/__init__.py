@@ -1,6 +1,6 @@
 import os
 
-from flask import Flask, redirect
+from flask import Flask
 
 
 def create_app():
@@ -21,8 +21,8 @@ def create_app():
     from . import auth
     app.register_blueprint(auth.bp)
 
-    @app.route('/')
-    def index():
-        return redirect('auth/login')
+    from . import events
+    app.register_blueprint(events.bp)
+    app.add_url_rule('/', endpoint='index')
 
     return app
