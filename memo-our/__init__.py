@@ -1,6 +1,6 @@
 import os
 
-from flask import Flask
+from flask import Flask, redirect
 
 
 def create_app():
@@ -17,5 +17,12 @@ def create_app():
 
     from . import db
     db.init_app(app)
+
+    from . import auth
+    app.register_blueprint(auth.bp)
+
+    @app.route('/')
+    def index():
+        return redirect('auth/login')
 
     return app
