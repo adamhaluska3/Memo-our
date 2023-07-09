@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block header %}
+    <h1>{% block title %}Edit "{{ event['name'] }}"{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+    <form method="post">
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" value="{{ request.form['name'] or event['name'] }}" required>
+
+        <label for="name">Date of birth</label>
+        <input name="birth_date" id="birth_date" type="date" value="{{ request.form['birth_date'] or event['birth_date'] }}" required>
+
+        <label for="birthday">Birthday</label>
+        <input name="event_type" id="birthday" type="radio" value="birthday">
+        
+        <label for="nameday">Nameday</label>
+        <input name="event_type" id="nameday" type="radio" value="nameday">
+    
+        <input type="submit" value="Save">
+    </form>
+    <hr>
+    <form action="{{ url_for('events.delete', id=event['id']) }}" method="post">
+        <input class="danger" type="submit" value="Delete" onclick="return confirm('Are you sure?')">
+    </form>
+{% endblock %}

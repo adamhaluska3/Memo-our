@@ -52,3 +52,50 @@ def create():
             return redirect(url_for('events.index'))
 
     return render_template('events/create.html')
+
+
+@bp.route('/<int:id>/update', methods=('GET', 'POST'))
+def update(id):
+    event = get_event(id)
+
+    if request.method == 'POST':
+        name = request.form['name']
+        birth_date = request.form['birth_date']
+        event_type = request.form['event_type']
+
+        db = get_db()
+        db.execute(
+            'UPDATE events SET name = ?, birth_date = ?, event_type = ?'
+            ' WHERE id = ?',
+            (name, birth_date, event_type, id)
+        )
+        db.commit()
+        return redirect(url_for('events.index'))
+
+    return render_template('events/update.html', event=event)
+
+
+def get_event(id, check_author=True):
+    event = get_db().execute(
+        'SELECT e.id, name, birth_date, event_type, remaining_days,'
+        ' author_id, username FROM events_data AS e JOIN user AS u'
+        ' ON e.author_id = u.id WHERE e.id = ?',
+        (id,)
+    ).fetchone()
+
+    if event is None:
+        abort(40, f"Event id {id} doesn't exist.")
+
+    if check_author and event['author_id'] != g.user['id']:
+        abort(403)
+
+    return event
+
+@bp.route('/<int:id>/delete', methods=('POST',))
+@login_required
+def delete(id):
+    get_event(id)
+    db = get_db()
+    db.execute('DELETE FROM events WHERE id = ?', (id,))
+    db.commit()
+    return redirect(url_for("events.index"))

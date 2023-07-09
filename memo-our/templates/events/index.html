@@ -16,25 +16,27 @@
             {% if event.remaining_days >= 0 %}
             <tr>
                 <th class="name">{{ event['name'] }}</th>
-                <th>{{ event['birth_date'] }}</th>
+                <th>{{ event['birth_date'].strftime("%-d.%-m") }}</th>
                 <th>{{ event['remaining_days'] }}</th>
+                <th><a class="action" href="{{ url_for('events.update', id=event['id']) }}">Edit</a></th>
             </tr>
             {% endif %}
 
             {% if not loop.last %}
                 <hr>
-            {% endif %}
-        {% endfor %}
-    </table>
-
-    <table>
-        <h3>Completed events</h3>
+                {% endif %}
+                {% endfor %}
+            </table>
+            
+            <table>
+                <h3>Completed events</h3>
         {% for event in events %}
             {% if event.remaining_days < 0 %}
             <tr>
                 <th class="name">{{ event['name'] }}</th>
-                <th>{{ event['birth_date'] }}</th>
+                <th>{{ event['birth_date'].strftime("%-d.%-m") }}</th>
                 <th>{{ event['remaining_days'] + 365 }}</th>
+                <th><a class="action" href="{{ url_for('events.update', id=event['id']) }}">Edit</a></th>
             </tr>
             {% endif %}
 
