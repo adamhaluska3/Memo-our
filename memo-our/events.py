@@ -16,7 +16,8 @@ def index():
     db = get_db()
     events = db.execute(
         'SELECT e.id, name, birth_date, event_type, remaining_days'
-        ' remaining_days FROM events_data AS e JOIN user AS u ON e.author_id = u.id'
+        ' remaining_days FROM events_data AS e JOIN user AS u'
+        ' ON e.author_id = u.id ORDER BY remaining_days'
     ).fetchall()
 
     return render_template('events/index.html', events=events)
@@ -90,6 +91,7 @@ def get_event(id, check_author=True):
         abort(403)
 
     return event
+
 
 @bp.route('/<int:id>/delete', methods=('POST',))
 @login_required

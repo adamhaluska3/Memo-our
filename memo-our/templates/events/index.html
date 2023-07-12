@@ -9,42 +9,45 @@
 
 {% block content %}
     {% if events %}
-
-    <table>
-        <h3>Upcoming events</h3>
-        {% for event in events %}
-            {% if event.remaining_days >= 0 %}
-            <tr>
-                <th class="name">{{ event['name'] }}</th>
-                <th>{{ event['birth_date'].strftime("%-d.%-m") }}</th>
-                <th>{{ event['remaining_days'] }}</th>
-                <th><a class="action" href="{{ url_for('events.update', id=event['id']) }}">Edit</a></th>
-            </tr>
-            {% endif %}
-
-            {% if not loop.last %}
-                <hr>
+    <div class="birthdays">
+        <h3>Birthdays today</h3>
+            {% for event in events %}
+                {% if event.remaining_days == 0 %}
+                    <div class="birthday_today">
+                        <p class="name"><a class="name_action" href="{{ url_for('events.update', id=event['id']) }}">{{ event['name'] }}</a></p>
+                        <p class="age_remaining_text">XX years</p>
+                        <p class="birth_date">({{ event['birth_date'].strftime("%-d.%-m") }})</p>
+                    </div>
                 {% endif %}
-                {% endfor %}
-            </table>
-            
-            <table>
-                <h3>Older events</h3>
-        {% for event in events %}
-            {% if event.remaining_days < 0 %}
-            <tr>
-                <th class="name">{{ event['name'] }}</th>
-                <th>{{ event['birth_date'].strftime("%-d.%-m") }}</th>
-                <th>{{ event['remaining_days'] + 365 }}</th>
-                <th><a class="action" href="{{ url_for('events.update', id=event['id']) }}">Edit</a></th>
-            </tr>
-            {% endif %}
+            {% endfor %}
 
-            {% if not loop.last %}
-                <hr>
-            {% endif %}
-        {% endfor %}
-    </table>
+        <h3>Upcoming birthdays</h3>
+            {% for event in events %}
+                {% if event.remaining_days > 0 %}
+                    <div class="birthday_upcoming">
+                        <p class="name"><a class="name_action" href="{{ url_for('events.update', id=event['id']) }}">{{ event['name'] }}</a></p>
+                        <p class="age_remaining_text">XX years in {{ event['remaining_days'] }} days</p>
+                        <p class="birth_date">({{ event['birth_date'].strftime("%-d.%-m") }})</p>
+                    </div>
+                {% endif %}
+            {% endfor %}
+
+        <h3>Next year birthdays</h3>
+            {% for event in events %}
+                {% if event.remaining_days < 0 %}
+                <div class="birthday_past">
+                    <p class="name"><a class="name_action" href="{{ url_for('events.update', id=event['id']) }}">{{ event['name'] }}</a></p>
+                    <p class="age_remaining_text">XX years in {{ event['remaining_days'] + 365 }} days</p>
+                    <p class="birth_date">({{ event['birth_date'].strftime("%-d.%-m") }})</p>
+                </div>
+                {% endif %}
+            {% endfor %}
+
+    </div>
+
+    <div class="namedays">
+        <!-- TODO -->
+    </div>
 
     {% endif %}
 {% endblock %}

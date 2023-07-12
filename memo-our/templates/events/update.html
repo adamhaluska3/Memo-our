@@ -13,11 +13,8 @@
         <input name="birth_date" id="birth_date" type="date" value="{{ request.form['birth_date'] or event['birth_date'] }}" required>
 
         <label for="birthday">Birthday</label>
-        <input name="event_type" id="birthday" type="radio" value="birthday">
-        
-        <label for="nameday">Nameday</label>
-        <input name="event_type" id="nameday" type="radio" value="nameday">
-    
+        <input name="event_type" id="birthday" type="radio" value="birthday" required>
+
         <input type="submit" value="Save">
     </form>
     <hr>
