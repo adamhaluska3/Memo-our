@@ -9,12 +9,15 @@
         <label for="name">Name</label>
         <input name="name" id="name" value="{{ request.form['name'] }}" required>
 
+        <label for="first_name">First name</label>
+        <input name="first_name" id="first_name" value="{{ request.form['first_name'] }}" required>
+
         <label for="name">Date of birth</label>
         <input name="birth_date" id="birth_date" type="date" format="dd-mm-yyyy" required>
 
-        <label for="birthday">Birthday</label>
-        <input name="event_type" id="birthday" type="radio" value="birthday" required>
-    
+        <label for="note">Note</label>
+        <textarea name="note" id="note" cols="30" rows="10">{{ request.form['note'] }}</textarea>
+
         <input type="submit" value="Save">
     </form>
 {% endblock %}
