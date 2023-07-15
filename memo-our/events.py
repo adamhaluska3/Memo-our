@@ -85,7 +85,7 @@ def get_event(id, check_author=True):
     if event is None:
         abort(404, f"Event id {id} doesn't exist.")
 
-    if check_author and event['author_id'] != g.user['id']:
+    if check_author and (g.user is None or event['author_id'] != g.user['id']):
         abort(403)
 
     return event

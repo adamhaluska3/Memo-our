@@ -10,7 +10,7 @@
 {% block content %}
     {% if events %}
     <div class="birthdays">
-        <h3>Birthdays today</h3>
+        <h3 id="birthday_today">Birthdays today</h3>
             {% for event in events %}
                 {% if event.remaining_days == 0 %}
                     <div class="birthday_today">
@@ -20,7 +20,7 @@
                     </div>
                 {% endif %}
             {% endfor %}
-
+        <hr>
         <h3>Upcoming birthdays</h3>
             {% for event in events %}
                 {% if event.remaining_days > 0 %}
@@ -31,7 +31,7 @@
                     </div>
                 {% endif %}
             {% endfor %}
-
+        <hr>
         <h3>Next year birthdays</h3>
             {% for event in events %}
                 {% if event.remaining_days < 0 %}
