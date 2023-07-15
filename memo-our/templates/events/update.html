@@ -7,13 +7,16 @@
 {% block content %}
     <form method="post">
         <label for="name">Name</label>
-        <input type="text" name="name" id="name" value="{{ request.form['name'] or event['name'] }}" required>
+        <input name="name" id="name" value="{{ event['name'] }}" required>
+
+        <label for="first_name">First name</label>
+        <input name="first_name" id="first_name" value="{{ event['first_name'] }}" required>
 
         <label for="name">Date of birth</label>
-        <input name="birth_date" id="birth_date" type="date" value="{{ request.form['birth_date'] or event['birth_date'] }}" required>
+        <input name="birth_date" id="birth_date" type="date" value="{{ event['birth_date'] }}" required>
 
-        <label for="birthday">Birthday</label>
-        <input name="event_type" id="birthday" type="radio" value="birthday" required>
+        <label for="note">Note</label>
+        <textarea name="note" id="note" cols="30" rows="10">{{ event['note'] }}</textarea>
 
         <input type="submit" value="Save">
     </form>

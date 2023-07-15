@@ -15,8 +15,8 @@ bp = Blueprint("events", __name__)
 def index():
     db = get_db()
     events = db.execute(
-        'SELECT e.id, name, birth_date, event_type, remaining_days'
-        ' remaining_days FROM events_data AS e JOIN user AS u'
+        'SELECT e.id, name, birth_date, remaining_days, age,'
+        ' u.username FROM events_data AS e JOIN user AS u'
         ' ON e.author_id = u.id ORDER BY remaining_days'
     ).fetchall()
 
@@ -29,14 +29,11 @@ def create():
     if request.method == 'POST':
         error = None
         name = request.form['name']
+        first_name = request.form['first_name']
         birth_date = request.form['birth_date']
+        note = request.form['note']
 
-        try:
-            event_type = request.form['event_type']
-        except KeyError:
-            error = 'Some info is missing.'
-
-        if (not name) or (not birth_date):
+        if (not name) or (not first_name) or (not birth_date):
             error = 'Some info is missing.'
 
         if error is not None:
@@ -45,9 +42,9 @@ def create():
         else:
             db = get_db()
             db.execute(
-                'INSERT INTO events (author_id, name, birth_date,'
-                ' event_type) VALUES (?, ?, ?, ?)',
-                (g.user['id'], name, birth_date, event_type)
+                'INSERT INTO events (author_id, name, first_name, birth_date,'
+                ' note) VALUES (?, ?, ?, ?, ?)',
+                (g.user['id'], name, first_name, birth_date, note)
             )
             db.commit()
             return redirect(url_for('events.index'))
@@ -61,14 +58,15 @@ def update(id):
 
     if request.method == 'POST':
         name = request.form['name']
+        first_name = request.form['first_name']
         birth_date = request.form['birth_date']
-        event_type = request.form['event_type']
+        note = request.form['note']
 
         db = get_db()
         db.execute(
-            'UPDATE events SET name = ?, birth_date = ?, event_type = ?'
-            ' WHERE id = ?',
-            (name, birth_date, event_type, id)
+            'UPDATE events SET name = ?, first_name = ?, birth_date = ?,'
+            ' note = ? WHERE id = ?',
+            (name, first_name, birth_date, note, id)
         )
         db.commit()
         return redirect(url_for('events.index'))
@@ -78,16 +76,16 @@ def update(id):
 
 def get_event(id, check_author=True):
     event = get_db().execute(
-        'SELECT e.id, name, birth_date, event_type, remaining_days,'
+        'SELECT e.id, name, first_name, birth_date, remaining_days, note, age,'
         ' author_id, username FROM events_data AS e JOIN user AS u'
         ' ON e.author_id = u.id WHERE e.id = ?',
         (id,)
     ).fetchone()
 
     if event is None:
-        abort(40, f"Event id {id} doesn't exist.")
+        abort(404, f"Event id {id} doesn't exist.")
 
-    if check_author and event['author_id'] != g.user['id']:
+    if check_author and (g.user is None or event['author_id'] != g.user['id']):
         abort(403)
 
     return event

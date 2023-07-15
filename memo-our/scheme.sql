@@ -14,11 +14,15 @@ CREATE TABLE events (
     created TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
 
     name TEXT NOT NULL,
+    first_name TEXT NOT NULL,
     birth_date DATE NOT NULL,
-    event_type TEXT NOT NULL,
+    note TEXT,
 
     FOREIGN KEY (author_id) REFERENCES user (id)
 );
 
 CREATE VIEW events_data AS 
-    SELECT id, author_id, created, name, birth_date, event_type, strftime('%j', birth_date) - strftime('%j', 'now') AS remaining_days FROM events;
+    SELECT id, author_id, created, name, first_name, birth_date, note, 
+    strftime('%j', birth_date) - strftime('%j', 'now') AS remaining_days,
+    strftime('%Y', 'now') - strftime('%Y', birth_date) AS age
+    FROM events;
