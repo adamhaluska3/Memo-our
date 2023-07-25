@@ -1,0 +1,2603 @@
+
+{
+  "namedays": {
+    "SK": {
+      "countrie": {
+        "sk": "Slovenská republika",
+        "en": "Slovakia"
+      },
+      "days": {
+        "01-02": [
+          {
+            "name": "Alexandra",
+            "sex": "F"
+          },
+          {
+            "name": "Sandra",
+            "sex": "F"
+          },
+          {
+            "name": "Karina",
+            "sex": "F"
+          }
+        ],
+        "01-03": [
+          {
+            "name": "Daniela",
+            "sex": "F"
+          }
+        ],
+        "01-04": [
+          {
+            "name": "Drahoslav",
+            "sex": "M"
+          }
+        ],
+        "01-05": [
+          {
+            "name": "Andrea",
+            "sex": "F"
+          },
+          {
+            "name": "Artur",
+            "sex": "M"
+          }
+        ],
+        "01-06": [
+          {
+            "name": "Antónia",
+            "sex": "F"
+          }
+        ],
+        "01-07": [
+          {
+            "name": "Bohuslava",
+            "sex": "F"
+          },
+          {
+            "name": "Atila",
+            "sex": "M"
+          }
+        ],
+        "01-08": [
+          {
+            "name": "Severín",
+            "sex": "M"
+          }
+        ],
+        "01-09": [
+          {
+            "name": "Alexej",
+            "sex": "M"
+          },
+          {
+            "name": "Alex",
+            "sex": "M"
+          },
+          {
+            "name": "Akexia",
+            "sex": "F"
+          }
+        ],
+        "01-10": [
+          {
+            "name": "Daša",
+            "sex": "F"
+          }
+        ],
+        "01-11": [
+          {
+            "name": "Malvína",
+            "sex": "F"
+          }
+        ],
+        "01-12": [
+          {
+            "name": "Ernest",
+            "sex": "M"
+          },
+          {
+            "name": "Ernestína",
+            "sex": "F"
+          }
+        ],
+        "01-13": [
+          {
+            "name": "Rastislav",
+            "sex": "M"
+          }
+        ],
+        "01-14": [
+          {
+            "name": "Radovan",
+            "sex": "M"
+          },
+          {
+            "name": "Radovana",
+            "sex": "F"
+          }
+        ],
+        "01-15": [
+          {
+            "name": "Dobroslav",
+            "sex": "M"
+          },
+          {
+            "name": "Dobroslava",
+            "sex": "F"
+          }
+        ],
+        "01-16": [
+          {
+            "name": "Kristína",
+            "sex": "F"
+          }
+        ],
+        "01-17": [
+          {
+            "name": "Nataša",
+            "sex": "F"
+          }
+        ],
+        "01-18": [
+          {
+            "name": "Bohdana",
+            "sex": "F"
+          }
+        ],
+        "01-19": [
+          {
+            "name": "Mário",
+            "sex": "M"
+          },
+          {
+            "name": "Sára",
+            "sex": "F"
+          },
+          {
+            "name": "Zara",
+            "sex": "F"
+          }
+        ],
+        "01-20": [
+          {
+            "name": "Dalibor",
+            "sex": "M"
+          },
+          {
+            "name": "Sebastián",
+            "sex": "M"
+          }
+        ],
+        "01-21": [
+          {
+            "name": "Vincent",
+            "sex": "M"
+          }
+        ],
+        "01-22": [
+          {
+            "name": "Zora",
+            "sex": "F"
+          },
+          {
+            "name": "Zoran",
+            "sex": "M"
+          },
+          {
+            "name": "Auróra",
+            "sex": "F"
+          }
+        ],
+        "01-23": [
+          {
+            "name": "Miloš",
+            "sex": "M"
+          }
+        ],
+        "01-24": [
+          {
+            "name": "Timotej",
+            "sex": "M"
+          },
+          {
+            "name": "Timon",
+            "sex": "M"
+          },
+          {
+            "name": "Tímea",
+            "sex": "F"
+          }
+        ],
+        "01-25": [
+          {
+            "name": "Gejza",
+            "sex": "M"
+          }
+        ],
+        "01-26": [
+          {
+            "name": "Tamara",
+            "sex": "F"
+          }
+        ],
+        "01-27": [
+          {
+            "name": "Bohuš",
+            "sex": "M"
+          }
+        ],
+        "01-28": [
+          {
+            "name": "Alfonz",
+            "sex": "M"
+          }
+        ],
+        "01-29": [
+          {
+            "name": "Gašpar",
+            "sex": "M"
+          }
+        ],
+        "01-30": [
+          {
+            "name": "Ema",
+            "sex": "F"
+          }
+        ],
+        "01-31": [
+          {
+            "name": "Emil",
+            "sex": "M"
+          }
+        ],
+        "02-01": [
+          {
+            "name": "Tatiana",
+            "sex": "F"
+          },
+          {
+            "name": "Táňa",
+            "sex": "F"
+          }
+        ],
+        "02-02": [
+          {
+            "name": "Erich",
+            "sex": "M"
+          },
+          {
+            "name": "Erik",
+            "sex": "M"
+          },
+          {
+            "name": "Erika",
+            "sex": "F"
+          }
+        ],
+        "02-03": [
+          {
+            "name": "Blažej",
+            "sex": "M"
+          }
+        ],
+        "02-04": [
+          {
+            "name": "Veronika",
+            "sex": "F"
+          }
+        ],
+        "02-05": [
+          {
+            "name": "Agáta",
+            "sex": "F"
+          }
+        ],
+        "02-06": [
+          {
+            "name": "Dorota",
+            "sex": "F"
+          }
+        ],
+        "02-07": [
+          {
+            "name": "Vanda",
+            "sex": "F"
+          }
+        ],
+        "02-08": [
+          {
+            "name": "Zoja",
+            "sex": "F"
+          }
+        ],
+        "02-09": [
+          {
+            "name": "Zdeno",
+            "sex": "M"
+          },
+          {
+            "name": "Zdenko",
+            "sex": "M"
+          },
+          {
+            "name": "Ronald",
+            "sex": "M"
+          }
+        ],
+        "02-10": [
+          {
+            "name": "Gabriela",
+            "sex": "F"
+          }
+        ],
+        "02-11": [
+          {
+            "name": "Dezider",
+            "sex": "M"
+          }
+        ],
+        "02-12": [
+          {
+            "name": "Perla",
+            "sex": "F"
+          }
+        ],
+        "02-13": [
+          {
+            "name": "Arpád",
+            "sex": "M"
+          }
+        ],
+        "02-14": [
+          {
+            "name": "Valentín",
+            "sex": "M"
+          }
+        ],
+        "02-15": [
+          {
+            "name": "Pravoslav",
+            "sex": "M"
+          }
+        ],
+        "02-16": [
+          {
+            "name": "Ida",
+            "sex": "F"
+          },
+          {
+            "name": "Liana",
+            "sex": "F"
+          }
+        ],
+        "02-17": [
+          {
+            "name": "Miloslava",
+            "sex": "F"
+          }
+        ],
+        "02-18": [
+          {
+            "name": "Jaromír",
+            "sex": "M"
+          },
+          {
+            "name": "Jaromíra",
+            "sex": "F"
+          }
+        ],
+        "02-19": [
+          {
+            "name": "Vlasta",
+            "sex": "B"
+          }
+        ],
+        "02-20": [
+          {
+            "name": "Lívia",
+            "sex": "F"
+          },
+          {
+            "name": "Aladár",
+            "sex": "M"
+          }
+        ],
+        "02-21": [
+          {
+            "name": "Eleonóra",
+            "sex": "F"
+          }
+        ],
+        "02-22": [
+          {
+            "name": "Etela",
+            "sex": "F"
+          }
+        ],
+        "02-23": [
+          {
+            "name": "Roman",
+            "sex": "M"
+          },
+          {
+            "name": "Romana",
+            "sex": "F"
+          }
+        ],
+        "02-24": [
+          {
+            "name": "Matej",
+            "sex": "M"
+          }
+        ],
+        "02-25": [
+          {
+            "name": "Frederik",
+            "sex": "M"
+          },
+          {
+            "name": "Frederika",
+            "sex": "F"
+          }
+        ],
+        "02-26": [
+          {
+            "name": "Viktor",
+            "sex": "M"
+          }
+        ],
+        "02-27": [
+          {
+            "name": "Alexander",
+            "sex": "M"
+          }
+        ],
+        "02-28": [
+          {
+            "name": "Zlatica",
+            "sex": "F"
+          }
+        ],
+        "02-29": [
+          {
+            "name": "Radomír",
+            "sex": "M"
+          }
+        ],
+        "03-01": [
+          {
+            "name": "Albín",
+            "sex": "M"
+          }
+        ],
+        "03-02": [
+          {
+            "name": "Anežka",
+            "sex": "F"
+          }
+        ],
+        "03-03": [
+          {
+            "name": "Bohumil",
+            "sex": "M"
+          },
+          {
+            "name": "Bohumila",
+            "sex": "F"
+          }
+        ],
+        "03-04": [
+          {
+            "name": "Kazimír",
+            "sex": "M"
+          }
+        ],
+        "03-05": [
+          {
+            "name": "Fridrich",
+            "sex": "M"
+          }
+        ],
+        "03-06": [
+          {
+            "name": "Radoslav",
+            "sex": "M"
+          },
+          {
+            "name": "Radoslava",
+            "sex": "F"
+          }
+        ],
+        "03-07": [
+          {
+            "name": "Tomáš",
+            "sex": "M"
+          }
+        ],
+        "03-08": [
+          {
+            "name": "Alan",
+            "sex": "M"
+          },
+          {
+            "name": "Alana",
+            "sex": "F"
+          }
+        ],
+        "03-09": [
+          {
+            "name": "Františka",
+            "sex": "F"
+          }
+        ],
+        "03-10": [
+          {
+            "name": "Branislav",
+            "sex": "M"
+          },
+          {
+            "name": "Bronislav",
+            "sex": "M"
+          },
+          {
+            "name": "Bruno",
+            "sex": "M"
+          }
+        ],
+        "03-11": [
+          {
+            "name": "Angela",
+            "sex": "F"
+          },
+          {
+            "name": "Angelika",
+            "sex": "F"
+          }
+        ],
+        "03-12": [
+          {
+            "name": "Gregor",
+            "sex": "M"
+          }
+        ],
+        "03-13": [
+          {
+            "name": "Vlastimil",
+            "sex": "M"
+          }
+        ],
+        "03-14": [
+          {
+            "name": "Matilda",
+            "sex": "F"
+          }
+        ],
+        "03-15": [
+          {
+            "name": "Svetlana",
+            "sex": "F"
+          }
+        ],
+        "03-16": [
+          {
+            "name": "Boleslav",
+            "sex": "M"
+          }
+        ],
+        "03-17": [
+          {
+            "name": "Ľubica",
+            "sex": "F"
+          }
+        ],
+        "03-18": [
+          {
+            "name": "Eduard",
+            "sex": "M"
+          }
+        ],
+        "03-19": [
+          {
+            "name": "Jozef",
+            "sex": "M"
+          }
+        ],
+        "03-20": [
+          {
+            "name": "Víťazoslav",
+            "sex": "M"
+          }
+        ],
+        "03-21": [
+          {
+            "name": "Blahoslav",
+            "sex": "M"
+          }
+        ],
+        "03-22": [
+          {
+            "name": "Beňadik",
+            "sex": "M"
+          },
+          {
+            "name": "Benedikt",
+            "sex": "M"
+          }
+        ],
+        "03-23": [
+          {
+            "name": "Adrián",
+            "sex": "M"
+          }
+        ],
+        "03-24": [
+          {
+            "name": "Gabriel",
+            "sex": "M"
+          }
+        ],
+        "03-25": [
+          {
+            "name": "Marián",
+            "sex": "M"
+          }
+        ],
+        "03-26": [
+          {
+            "name": "Emanuel",
+            "sex": "M"
+          }
+        ],
+        "03-27": [
+          {
+            "name": "Alena",
+            "sex": "F"
+          }
+        ],
+        "03-28": [
+          {
+            "name": "Soňa",
+            "sex": "F"
+          }
+        ],
+        "03-29": [
+          {
+            "name": "Miroslav",
+            "sex": "M"
+          }
+        ],
+        "03-30": [
+          {
+            "name": "Vieroslava",
+            "sex": "M"
+          }
+        ],
+        "03-31": [
+          {
+            "name": "Benjamín",
+            "sex": "M"
+          }
+        ],
+        "04-01": [
+          {
+            "name": "Hugo",
+            "sex": "M"
+          }
+        ],
+        "04-02": [
+          {
+            "name": "Zita",
+            "sex": "F"
+          }
+        ],
+        "04-03": [
+          {
+            "name": "Richard",
+            "sex": "M"
+          }
+        ],
+        "04-04": [
+          {
+            "name": "Izidor",
+            "sex": "M"
+          }
+        ],
+        "04-05": [
+          {
+            "name": "Miroslava",
+            "sex": "F"
+          }
+        ],
+        "04-06": [
+          {
+            "name": "Irena",
+            "sex": "F"
+          }
+        ],
+        "04-07": [
+          {
+            "name": "Zoltán",
+            "sex": "M"
+          }
+        ],
+        "04-08": [
+          {
+            "name": "Albert",
+            "sex": "M"
+          }
+        ],
+        "04-09": [
+          {
+            "name": "Milena",
+            "sex": "F"
+          }
+        ],
+        "04-10": [
+          {
+            "name": "Igor",
+            "sex": "M"
+          }
+        ],
+        "04-11": [
+          {
+            "name": "Július",
+            "sex": "M"
+          }
+        ],
+        "04-12": [
+          {
+            "name": "Estera",
+            "sex": "F"
+          }
+        ],
+        "04-13": [
+          {
+            "name": "Aleš",
+            "sex": "M"
+          }
+        ],
+        "04-14": [
+          {
+            "name": "Justín",
+            "sex": "M"
+          },
+          {
+            "name": "Justína",
+            "sex": "F"
+          }
+        ],
+        "04-15": [
+          {
+            "name": "Fedor",
+            "sex": "M"
+          }
+        ],
+        "04-16": [
+          {
+            "name": "Dana",
+            "sex": "F"
+          },
+          {
+            "name": "Danica",
+            "sex": "F"
+          }
+        ],
+        "04-17": [
+          {
+            "name": "Rudolf",
+            "sex": "M"
+          }
+        ],
+        "04-18": [
+          {
+            "name": "Valér",
+            "sex": "M"
+          }
+        ],
+        "04-19": [
+          {
+            "name": "Jela",
+            "sex": "F"
+          }
+        ],
+        "04-20": [
+          {
+            "name": "Marcel",
+            "sex": "M"
+          }
+        ],
+        "04-21": [
+          {
+            "name": "Ervín",
+            "sex": "M"
+          }
+        ],
+        "04-22": [
+          {
+            "name": "Slavomír",
+            "sex": "M"
+          }
+        ],
+        "04-23": [
+          {
+            "name": "Vojtech",
+            "sex": "M"
+          }
+        ],
+        "04-24": [
+          {
+            "name": "Juraj",
+            "sex": "M"
+          }
+        ],
+        "04-25": [
+          {
+            "name": "Marek",
+            "sex": "M"
+          },
+          {
+            "name": "Marko",
+            "sex": "M"
+          },
+          {
+            "name": "Markus",
+            "sex": "M"
+          }
+        ],
+        "04-26": [
+          {
+            "name": "Jaroslava",
+            "sex": "F"
+          }
+        ],
+        "04-27": [
+          {
+            "name": "Jaroslav",
+            "sex": "M"
+          }
+        ],
+        "04-28": [
+          {
+            "name": "Jarmila",
+            "sex": "F"
+          }
+        ],
+        "04-29": [
+          {
+            "name": "Leo",
+            "sex": "M"
+          },
+          {
+            "name": "Lea",
+            "sex": "F"
+          }
+        ],
+        "04-30": [
+          {
+            "name": "Anastázia",
+            "sex": "F"
+          }
+        ],
+        "05-02": [
+          {
+            "name": "Žigmund",
+            "sex": "M"
+          }
+        ],
+        "05-03": [
+          {
+            "name": "Galina",
+            "sex": "F"
+          }
+        ],
+        "05-04": [
+          {
+            "name": "Florián",
+            "sex": "M"
+          }
+        ],
+        "05-05": [
+          {
+            "name": "Lesana",
+            "sex": "F"
+          },
+          {
+            "name": "Lesia",
+            "sex": "F"
+          }
+        ],
+        "05-06": [
+          {
+            "name": "Hermína",
+            "sex": "F"
+          }
+        ],
+        "05-07": [
+          {
+            "name": "Monika",
+            "sex": "F"
+          }
+        ],
+        "05-08": [
+          {
+            "name": "Ingrida",
+            "sex": "F"
+          }
+        ],
+        "05-09": [
+          {
+            "name": "Roland",
+            "sex": "M"
+          }
+        ],
+        "05-10": [
+          {
+            "name": "Viktória",
+            "sex": "F"
+          }
+        ],
+        "05-11": [
+          {
+            "name": "Blažena",
+            "sex": "F"
+          }
+        ],
+        "05-12": [
+          {
+            "name": "Pankrác",
+            "sex": "M"
+          }
+        ],
+        "05-13": [
+          {
+            "name": "Servác",
+            "sex": "M"
+          }
+        ],
+        "05-14": [
+          {
+            "name": "Bonifác",
+            "sex": "M"
+          }
+        ],
+        "05-15": [
+          {
+            "name": "Žofia",
+            "sex": "F"
+          },
+          {
+            "name": "Sofia",
+            "sex": "F"
+          }
+        ],
+        "05-16": [
+          {
+            "name": "Svetozár",
+            "sex": "M"
+          }
+        ],
+        "05-17": [
+          {
+            "name": "Gizela",
+            "sex": "F"
+          }
+        ],
+        "05-18": [
+          {
+            "name": "Viola",
+            "sex": "F"
+          }
+        ],
+        "05-19": [
+          {
+            "name": "Gertrúda",
+            "sex": "F"
+          }
+        ],
+        "05-20": [
+          {
+            "name": "Bernard",
+            "sex": "M"
+          }
+        ],
+        "05-21": [
+          {
+            "name": "Zina",
+            "sex": "F"
+          }
+        ],
+        "05-22": [
+          {
+            "name": "Júlia",
+            "sex": "F"
+          },
+          {
+            "name": "Juliána",
+            "sex": "F"
+          },
+          {
+            "name": "Rita",
+            "sex": "F"
+          }
+        ],
+        "05-23": [
+          {
+            "name": "Želmíra",
+            "sex": "F"
+          }
+        ],
+        "05-24": [
+          {
+            "name": "Ela",
+            "sex": "F"
+          },
+          {
+            "name": "Vanesa",
+            "sex": "F"
+          }
+        ],
+        "05-25": [
+          {
+            "name": "Urban",
+            "sex": "M"
+          }
+        ],
+        "05-26": [
+          {
+            "name": "Dušan",
+            "sex": "M"
+          }
+        ],
+        "05-27": [
+          {
+            "name": "Iveta",
+            "sex": "F"
+          }
+        ],
+        "05-28": [
+          {
+            "name": "Viliam",
+            "sex": "M"
+          }
+        ],
+        "05-29": [
+          {
+            "name": "Vilma",
+            "sex": "F"
+          }
+        ],
+        "05-30": [
+          {
+            "name": "Ferdinand",
+            "sex": "M"
+          }
+        ],
+        "05-31": [
+          {
+            "name": "Petrana",
+            "sex": "F"
+          },
+          {
+            "name": "Petronela",
+            "sex": "F"
+          },
+          {
+            "name": "Nela",
+            "sex": "F"
+          }
+        ],
+        "06-01": [
+          {
+            "name": "Žaneta",
+            "sex": "F"
+          }
+        ],
+        "06-02": [
+          {
+            "name": "Oxana",
+            "sex": "F"
+          },
+          {
+            "name": "Xénia",
+            "sex": "F"
+          }
+        ],
+        "06-03": [
+          {
+            "name": "Karolína",
+            "sex": "F"
+          },
+          {
+            "name": "Kevin",
+            "sex": "F"
+          }
+        ],
+        "06-04": [
+          {
+            "name": "Lenka",
+            "sex": "F"
+          }
+        ],
+        "06-05": [
+          {
+            "name": "Laura",
+            "sex": "F"
+          }
+        ],
+        "06-06": [
+          {
+            "name": "Norbert",
+            "sex": "M"
+          }
+        ],
+        "06-07": [
+          {
+            "name": "Róbert",
+            "sex": "M"
+          }
+        ],
+        "06-08": [
+          {
+            "name": "Medard",
+            "sex": "M"
+          }
+        ],
+        "06-09": [
+          {
+            "name": "Stanislava",
+            "sex": "F"
+          }
+        ],
+        "06-10": [
+          {
+            "name": "Margaréta",
+            "sex": "F"
+          },
+          {
+            "name": "Gréta",
+            "sex": "F"
+          }
+        ],
+        "06-11": [
+          {
+            "name": "Jesika",
+            "sex": "F"
+          }
+        ],
+        "06-12": [
+          {
+            "name": "Zlatko",
+            "sex": "M"
+          }
+        ],
+        "06-13": [
+          {
+            "name": "Anton",
+            "sex": "M"
+          }
+        ],
+        "06-14": [
+          {
+            "name": "Vasil",
+            "sex": "M"
+          }
+        ],
+        "06-15": [
+          {
+            "name": "Vít",
+            "sex": "M"
+          }
+        ],
+        "06-16": [
+          {
+            "name": "Bianka",
+            "sex": "F"
+          },
+          {
+            "name": "Blanka",
+            "sex": "F"
+          }
+        ],
+        "06-17": [
+          {
+            "name": "Adolf",
+            "sex": "M"
+          }
+        ],
+        "06-18": [
+          {
+            "name": "Vratislav",
+            "sex": "M"
+          }
+        ],
+        "06-19": [
+          {
+            "name": "Alfréd",
+            "sex": "M"
+          }
+        ],
+        "06-20": [
+          {
+            "name": "Valéria",
+            "sex": "F"
+          }
+        ],
+        "06-21": [
+          {
+            "name": "Alojz",
+            "sex": "M"
+          }
+        ],
+        "06-22": [
+          {
+            "name": "Paulína",
+            "sex": "F"
+          },
+          {
+            "name": "Paula",
+            "sex": "F"
+          },
+          {
+            "name": "Pavla",
+            "sex": "F"
+          }
+        ],
+        "06-23": [
+          {
+            "name": "Sidónia",
+            "sex": "M"
+          }
+        ],
+        "06-24": [
+          {
+            "name": "Ján",
+            "sex": "M"
+          }
+        ],
+        "06-25": [
+          {
+            "name": "Olívia",
+            "sex": "F"
+          },
+          {
+            "name": "Tadeáš",
+            "sex": "M"
+          }
+        ],
+        "06-26": [
+          {
+            "name": "Adriána",
+            "sex": "F"
+          }
+        ],
+        "06-27": [
+          {
+            "name": "Ladislav",
+            "sex": "M"
+          },
+          {
+            "name": "Ladislava",
+            "sex": "F"
+          }
+        ],
+        "06-28": [
+          {
+            "name": "Beáta",
+            "sex": "M"
+          }
+        ],
+        "06-29": [
+          {
+            "name": "Peter",
+            "sex": "M"
+          },
+          {
+            "name": "Pavol",
+            "sex": "M"
+          },
+          {
+            "name": "Petra",
+            "sex": "F"
+          }
+        ],
+        "06-30": [
+          {
+            "name": "Melánia",
+            "sex": "F"
+          }
+        ],
+        "07-01": [
+          {
+            "name": "Diana",
+            "sex": "F"
+          }
+        ],
+        "07-02": [
+          {
+            "name": "Berta",
+            "sex": "F"
+          }
+        ],
+        "07-03": [
+          {
+            "name": "Miloslav",
+            "sex": "M"
+          }
+        ],
+        "07-04": [
+          {
+            "name": "Prokop",
+            "sex": "M"
+          }
+        ],
+        "07-05": [
+          {
+            "name": "Cyril",
+            "sex": "M"
+          },
+          {
+            "name": "Metod",
+            "sex": "M"
+          }
+        ],
+        "07-06": [
+          {
+            "name": "Patrik",
+            "sex": "M"
+          },
+          {
+            "name": "Patrícia",
+            "sex": "F"
+          }
+        ],
+        "07-07": [
+          {
+            "name": "Oliver",
+            "sex": "M"
+          }
+        ],
+        "07-08": [
+          {
+            "name": "Ivan",
+            "sex": "M"
+          }
+        ],
+        "07-09": [
+          {
+            "name": "Lujza",
+            "sex": "F"
+          }
+        ],
+        "07-10": [
+          {
+            "name": "Amália",
+            "sex": "F"
+          }
+        ],
+        "07-11": [
+          {
+            "name": "Milota",
+            "sex": "F"
+          }
+        ],
+        "07-12": [
+          {
+            "name": "Nina",
+            "sex": "F"
+          }
+        ],
+        "07-13": [
+          {
+            "name": "Margita",
+            "sex": "F"
+          }
+        ],
+        "07-14": [
+          {
+            "name": "Kamil",
+            "sex": "M"
+          },
+          {
+            "name": "Lara",
+            "sex": "F"
+          }
+        ],
+        "07-15": [
+          {
+            "name": "Henrich",
+            "sex": "M"
+          }
+        ],
+        "07-16": [
+          {
+            "name": "Drahomír",
+            "sex": "M"
+          },
+          {
+            "name": "Drahomíra",
+            "sex": "F"
+          }
+        ],
+        "07-18": [
+          {
+            "name": "Kamila",
+            "sex": "F"
+          }
+        ],
+        "07-19": [
+          {
+            "name": "šarlota",
+            "sex": "F"
+          },
+          {
+            "name": "Dušana",
+            "sex": "F"
+          }
+        ],
+        "07-20": [
+          {
+            "name": "Eliáš",
+            "sex": "M"
+          },
+          {
+            "name": "Iľja",
+            "sex": "F"
+          },
+          {
+            "name": "Eliána",
+            "sex": "F"
+          }
+        ],
+        "07-21": [
+          {
+            "name": "Daniel",
+            "sex": "M"
+          }
+        ],
+        "07-22": [
+          {
+            "name": "Magdaléna",
+            "sex": "F"
+          }
+        ],
+        "07-23": [
+          {
+            "name": "Oľga",
+            "sex": "F"
+          }
+        ],
+        "07-24": [
+          {
+            "name": "Vladimír",
+            "sex": "M"
+          }
+        ],
+        "07-25": [
+          {
+            "name": "Jakub",
+            "sex": "M"
+          }
+        ],
+        "07-26": [
+          {
+            "name": "Anna",
+            "sex": "F"
+          },
+          {
+            "name": "Hana",
+            "sex": "F"
+          },
+          {
+            "name": "Aneta",
+            "sex": "F"
+          }
+        ],
+        "07-27": [
+          {
+            "name": "Božena",
+            "sex": "F"
+          }
+        ],
+        "07-28": [
+          {
+            "name": "Krištof",
+            "sex": "M"
+          }
+        ],
+        "07-29": [
+          {
+            "name": "Marta",
+            "sex": "F"
+          }
+        ],
+        "07-30": [
+          {
+            "name": "Libuša",
+            "sex": "F"
+          }
+        ],
+        "07-31": [
+          {
+            "name": "Ignác",
+            "sex": "M"
+          }
+        ],
+        "08-01": [
+          {
+            "name": "Božidara",
+            "sex": "F"
+          }
+        ],
+        "08-02": [
+          {
+            "name": "Gustáv",
+            "sex": "M"
+          }
+        ],
+        "08-03": [
+          {
+            "name": "Jerguš",
+            "sex": "M"
+          }
+        ],
+        "08-04": [
+          {
+            "name": "Dominik",
+            "sex": "M"
+          },
+          {
+            "name": "Dominika",
+            "sex": "F"
+          }
+        ],
+        "08-05": [
+          {
+            "name": "Hortenzia",
+            "sex": "F"
+          }
+        ],
+        "08-06": [
+          {
+            "name": "Jozefína",
+            "sex": "F"
+          }
+        ],
+        "08-07": [
+          {
+            "name": "Štefánia",
+            "sex": "F"
+          }
+        ],
+        "08-08": [
+          {
+            "name": "Oskar",
+            "sex": "M"
+          }
+        ],
+        "08-09": [
+          {
+            "name": "Ľubomíra",
+            "sex": "F"
+          }
+        ],
+        "08-10": [
+          {
+            "name": "Vavrinec",
+            "sex": "M"
+          }
+        ],
+        "08-11": [
+          {
+            "name": "Zuzana",
+            "sex": "F"
+          }
+        ],
+        "08-12": [
+          {
+            "name": "Darina",
+            "sex": "F"
+          },
+          {
+            "name": "Dárius",
+            "sex": "M"
+          },
+          {
+            "name": "Dária",
+            "sex": "F"
+          }
+        ],
+        "08-13": [
+          {
+            "name": "Ľubomír",
+            "sex": "M"
+          }
+        ],
+        "08-14": [
+          {
+            "name": "Mojmír",
+            "sex": "M"
+          }
+        ],
+        "08-15": [
+          {
+            "name": "Marcela",
+            "sex": "F"
+          }
+        ],
+        "08-16": [
+          {
+            "name": "Leonard",
+            "sex": "M"
+          }
+        ],
+        "08-17": [
+          {
+            "name": "Milica",
+            "sex": "F"
+          }
+        ],
+        "08-18": [
+          {
+            "name": "Elena",
+            "sex": "F"
+          },
+          {
+            "name": "Helena",
+            "sex": "F"
+          }
+        ],
+        "08-19": [
+          {
+            "name": "Lýdia",
+            "sex": "F"
+          }
+        ],
+        "08-20": [
+          {
+            "name": "Anabela",
+            "sex": "F"
+          }
+        ],
+        "08-21": [
+          {
+            "name": "Jana",
+            "sex": "F"
+          },
+          {
+            "name": "Johana",
+            "sex": "F"
+          },
+          {
+            "name": "Noema",
+            "sex": "F"
+          }
+        ],
+        "08-22": [
+          {
+            "name": "Tichomír",
+            "sex": "M"
+          }
+        ],
+        "08-23": [
+          {
+            "name": "Filip",
+            "sex": "M"
+          }
+        ],
+        "08-24": [
+          {
+            "name": "Bartolomej",
+            "sex": "M"
+          }
+        ],
+        "08-25": [
+          {
+            "name": "Ľudovít",
+            "sex": "M"
+          }
+        ],
+        "08-26": [
+          {
+            "name": "Samuel",
+            "sex": "M"
+          }
+        ],
+        "08-27": [
+          {
+            "name": "Silvia",
+            "sex": "F"
+          }
+        ],
+        "08-28": [
+          {
+            "name": "Augustín",
+            "sex": "M"
+          }
+        ],
+        "08-29": [
+          {
+            "name": "Nikola",
+            "sex": "F"
+          },
+          {
+            "name": "Nikolaj",
+            "sex": "M"
+          }
+        ],
+        "08-30": [
+          {
+            "name": "Ružena",
+            "sex": "F"
+          }
+        ],
+        "08-31": [
+          {
+            "name": "Nora",
+            "sex": "F"
+          }
+        ],
+        "09-01": [
+          {
+            "name": "Drahoslava",
+            "sex": "F"
+          }
+        ],
+        "09-02": [
+          {
+            "name": "Linda",
+            "sex": "F"
+          },
+          {
+            "name": "Rebeka",
+            "sex": "F"
+          }
+        ],
+        "09-03": [
+          {
+            "name": "Belo",
+            "sex": "M"
+          }
+        ],
+        "09-04": [
+          {
+            "name": "Rozália",
+            "sex": "F"
+          }
+        ],
+        "09-05": [
+          {
+            "name": "Regína",
+            "sex": "F"
+          }
+        ],
+        "09-06": [
+          {
+            "name": "Alica",
+            "sex": "F"
+          }
+        ],
+        "09-07": [
+          {
+            "name": "Marianna",
+            "sex": "F"
+          }
+        ],
+        "09-08": [
+          {
+            "name": "Miriama",
+            "sex": "F"
+          }
+        ],
+        "09-09": [
+          {
+            "name": "Martina",
+            "sex": "F"
+          }
+        ],
+        "09-10": [
+          {
+            "name": "Oleg",
+            "sex": "M"
+          }
+        ],
+        "09-11": [
+          {
+            "name": "Bystrík",
+            "sex": "M"
+          }
+        ],
+        "09-12": [
+          {
+            "name": "Mária",
+            "sex": "F"
+          },
+          {
+            "name": "Mia",
+            "sex": "F"
+          }
+        ],
+        "09-13": [
+          {
+            "name": "Ctibor",
+            "sex": "M"
+          },
+          {
+            "name": "Tobiáš",
+            "sex": "M"
+          },
+          {
+            "name": "Tobias",
+            "sex": "M"
+          }
+        ],
+        "09-14": [
+          {
+            "name": "Ľudomil",
+            "sex": "M"
+          },
+          {
+            "name": "Radka",
+            "sex": "F"
+          }
+        ],
+        "09-15": [
+          {
+            "name": "Jolana",
+            "sex": "F"
+          }
+        ],
+        "09-16": [
+          {
+            "name": "Ľudmila",
+            "sex": "F"
+          }
+        ],
+        "09-17": [
+          {
+            "name": "Olympia",
+            "sex": "F"
+          },
+          {
+            "name": "Melisa",
+            "sex": "F"
+          }
+        ],
+        "09-18": [
+          {
+            "name": "Eugénia",
+            "sex": "F"
+          }
+        ],
+        "09-19": [
+          {
+            "name": "Konštantín",
+            "sex": "M"
+          }
+        ],
+        "09-20": [
+          {
+            "name": "Ľuboslav",
+            "sex": "M"
+          },
+          {
+            "name": "Ľuboslava",
+            "sex": "F"
+          }
+        ],
+        "09-21": [
+          {
+            "name": "Matúš",
+            "sex": "M"
+          }
+        ],
+        "09-22": [
+          {
+            "name": "Móric",
+            "sex": "M"
+          }
+        ],
+        "09-23": [
+          {
+            "name": "Zdenka",
+            "sex": "F"
+          }
+        ],
+        "09-24": [
+          {
+            "name": "Ľubor",
+            "sex": "M"
+          },
+          {
+            "name": "Ľuboš",
+            "sex": "M"
+          }
+        ],
+        "09-25": [
+          {
+            "name": "Vladislav",
+            "sex": "M"
+          }
+        ],
+        "09-26": [
+          {
+            "name": "Edita",
+            "sex": "F"
+          }
+        ],
+        "09-27": [
+          {
+            "name": "Cyprián",
+            "sex": "M"
+          },
+          {
+            "name": "Damián",
+            "sex": "M"
+          }
+        ],
+        "09-28": [
+          {
+            "name": "Václav",
+            "sex": "M"
+          }
+        ],
+        "09-29": [
+          {
+            "name": "Michal",
+            "sex": "M"
+          },
+          {
+            "name": "Michael",
+            "sex": "M"
+          },
+          {
+            "name": "Michaela",
+            "sex": "F"
+          }
+        ],
+        "09-30": [
+          {
+            "name": "Jarolím",
+            "sex": "M"
+          }
+        ],
+        "10-01": [
+          {
+            "name": "Arnold",
+            "sex": "M"
+          }
+        ],
+        "10-02": [
+          {
+            "name": "Levoslav",
+            "sex": "M"
+          }
+        ],
+        "10-03": [
+          {
+            "name": "Stela",
+            "sex": "F"
+          }
+        ],
+        "10-04": [
+          {
+            "name": "František",
+            "sex": "M"
+          }
+        ],
+        "10-05": [
+          {
+            "name": "Viera",
+            "sex": "F"
+          }
+        ],
+        "10-06": [
+          {
+            "name": "Natália",
+            "sex": "F"
+          }
+        ],
+        "10-07": [
+          {
+            "name": "Eliška",
+            "sex": "F"
+          },
+          {
+            "name": "Elisa",
+            "sex": "F"
+          }
+        ],
+        "10-08": [
+          {
+            "name": "Brigita",
+            "sex": "F"
+          }
+        ],
+        "10-09": [
+          {
+            "name": "Dionýz",
+            "sex": "M"
+          }
+        ],
+        "10-10": [
+          {
+            "name": "Slavomíra",
+            "sex": "F"
+          }
+        ],
+        "10-11": [
+          {
+            "name": "Valentína",
+            "sex": "F"
+          }
+        ],
+        "10-12": [
+          {
+            "name": "Maximilián",
+            "sex": "M"
+          },
+          {
+            "name": "Maxim",
+            "sex": "M"
+          },
+          {
+            "name": "Max",
+            "sex": "M"
+          }
+        ],
+        "10-13": [
+          {
+            "name": "Koloman",
+            "sex": "M"
+          }
+        ],
+        "10-14": [
+          {
+            "name": "Boris",
+            "sex": "M"
+          }
+        ],
+        "10-15": [
+          {
+            "name": "Terézia",
+            "sex": "F"
+          },
+          {
+            "name": "Tereza",
+            "sex": "F"
+          }
+        ],
+        "10-16": [
+          {
+            "name": "Vladimíra",
+            "sex": "F"
+          }
+        ],
+        "10-17": [
+          {
+            "name": "Hedviga",
+            "sex": "F"
+          }
+        ],
+        "10-18": [
+          {
+            "name": "Lukáš",
+            "sex": "M"
+          }
+        ],
+        "10-19": [
+          {
+            "name": "Kristián",
+            "sex": "M"
+          }
+        ],
+        "10-20": [
+          {
+            "name": "Vendelín",
+            "sex": "M"
+          }
+        ],
+        "10-21": [
+          {
+            "name": "Uršuľa",
+            "sex": "F"
+          }
+        ],
+        "10-22": [
+          {
+            "name": "Sergej",
+            "sex": "M"
+          }
+        ],
+        "10-23": [
+          {
+            "name": "Alojzia",
+            "sex": "F"
+          }
+        ],
+        "10-24": [
+          {
+            "name": "Kvetoslava",
+            "sex": "F"
+          }
+        ],
+        "10-25": [
+          {
+            "name": "Aurel",
+            "sex": "M"
+          }
+        ],
+        "10-26": [
+          {
+            "name": "Demeter",
+            "sex": "M"
+          }
+        ],
+        "10-27": [
+          {
+            "name": "Sabína",
+            "sex": "F"
+          }
+        ],
+        "10-28": [
+          {
+            "name": "Dobromila",
+            "sex": "F"
+          }
+        ],
+        "10-29": [
+          {
+            "name": "Klára",
+            "sex": "F"
+          },
+          {
+            "name": "Kiara",
+            "sex": "F"
+          }
+        ],
+        "10-30": [
+          {
+            "name": "Šimon",
+            "sex": "M"
+          },
+          {
+            "name": "Simon",
+            "sex": "M"
+          },
+          {
+            "name": "Simona",
+            "sex": "F"
+          }
+        ],
+        "10-31": [
+          {
+            "name": "Aurélia",
+            "sex": "F"
+          }
+        ],
+        "11-01": [
+          {
+            "name": "Denis",
+            "sex": "M"
+          },
+          {
+            "name": "Denisa",
+            "sex": "F"
+          }
+        ],
+        "11-03": [
+          {
+            "name": "Hubert",
+            "sex": "M"
+          }
+        ],
+        "11-04": [
+          {
+            "name": "Karol",
+            "sex": "M"
+          }
+        ],
+        "11-05": [
+          {
+            "name": "Imrich",
+            "sex": "M"
+          }
+        ],
+        "11-06": [
+          {
+            "name": "Renáta",
+            "sex": "F"
+          }
+        ],
+        "11-07": [
+          {
+            "name": "René",
+            "sex": "M"
+          }
+        ],
+        "11-08": [
+          {
+            "name": "Bohumír",
+            "sex": "M"
+          }
+        ],
+        "11-09": [
+          {
+            "name": "Teodor",
+            "sex": "M"
+          },
+          {
+            "name": "Teo",
+            "sex": "M"
+          }
+        ],
+        "11-10": [
+          {
+            "name": "Tibor",
+            "sex": "M"
+          }
+        ],
+        "11-11": [
+          {
+            "name": "Martin",
+            "sex": "M"
+          },
+          {
+            "name": "Maroš",
+            "sex": "M"
+          }
+        ],
+        "11-12": [
+          {
+            "name": "Svätopluk",
+            "sex": "M"
+          },
+          {
+            "name": "Jonáš",
+            "sex": "M"
+          }
+        ],
+        "11-13": [
+          {
+            "name": "Stanislav",
+            "sex": "M"
+          }
+        ],
+        "11-14": [
+          {
+            "name": "Irma",
+            "sex": "F"
+          }
+        ],
+        "11-15": [
+          {
+            "name": "Leopold",
+            "sex": "M"
+          }
+        ],
+        "11-16": [
+          {
+            "name": "Agnesa",
+            "sex": "F"
+          }
+        ],
+        "11-17": [
+          {
+            "name": "Klaudia",
+            "sex": "F"
+          }
+        ],
+        "11-18": [
+          {
+            "name": "Eugen",
+            "sex": "M"
+          }
+        ],
+        "11-19": [
+          {
+            "name": "Alžbeta",
+            "sex": "F"
+          },
+          {
+            "name": "Liliana",
+            "sex": "F"
+          }
+        ],
+        "11-20": [
+          {
+            "name": "Félix",
+            "sex": "M"
+          }
+        ],
+        "11-21": [
+          {
+            "name": "Elvíra",
+            "sex": "F"
+          }
+        ],
+        "11-22": [
+          {
+            "name": "Cecília",
+            "sex": "F"
+          }
+        ],
+        "11-23": [
+          {
+            "name": "Klement",
+            "sex": "M"
+          }
+        ],
+        "11-24": [
+          {
+            "name": "Emília",
+            "sex": "F"
+          }
+        ],
+        "11-25": [
+          {
+            "name": "Katarína",
+            "sex": "F"
+          }
+        ],
+        "11-26": [
+          {
+            "name": "Kornel",
+            "sex": "M"
+          }
+        ],
+        "11-27": [
+          {
+            "name": "Milan",
+            "sex": "M"
+          }
+        ],
+        "11-28": [
+          {
+            "name": "Henrieta",
+            "sex": "F"
+          }
+        ],
+        "11-29": [
+          {
+            "name": "Vratko",
+            "sex": "M"
+          }
+        ],
+        "11-30": [
+          {
+            "name": "Andrej",
+            "sex": "M"
+          },
+          {
+            "name": "Ondrej",
+            "sex": "M"
+          },
+          {
+            "name": "Andreas",
+            "sex": "M"
+          }
+        ],
+        "12-01": [
+          {
+            "name": "Edmund",
+            "sex": "M"
+          }
+        ],
+        "12-02": [
+          {
+            "name": "Bibiána",
+            "sex": "F"
+          },
+          {
+            "name": "Viviána",
+            "sex": "F"
+          }
+        ],
+        "12-03": [
+          {
+            "name": "Oldrich",
+            "sex": "M"
+          }
+        ],
+        "12-04": [
+          {
+            "name": "Barbora",
+            "sex": "F"
+          },
+          {
+            "name": "Barbara",
+            "sex": "F"
+          }
+        ],
+        "12-05": [
+          {
+            "name": "Oto",
+            "sex": "M"
+          }
+        ],
+        "12-06": [
+          {
+            "name": "Mikuláš",
+            "sex": "M"
+          },
+          {
+            "name": "Nikolas",
+            "sex": "M"
+          }
+        ],
+        "12-07": [
+          {
+            "name": "Ambróz",
+            "sex": "M"
+          }
+        ],
+        "12-08": [
+          {
+            "name": "Marína",
+            "sex": "F"
+          }
+        ],
+        "12-09": [
+          {
+            "name": "Izabela",
+            "sex": "F"
+          }
+        ],
+        "12-10": [
+          {
+            "name": "Radúz",
+            "sex": "M"
+          }
+        ],
+        "12-11": [
+          {
+            "name": "Hilda",
+            "sex": "F"
+          }
+        ],
+        "12-12": [
+          {
+            "name": "Otília",
+            "sex": "F"
+          }
+        ],
+        "12-13": [
+          {
+            "name": "Lucia",
+            "sex": "F"
+          }
+        ],
+        "12-14": [
+          {
+            "name": "Branislava",
+            "sex": "F"
+          },
+          {
+            "name": "Bronislava",
+            "sex": "F"
+          }
+        ],
+        "12-15": [
+          {
+            "name": "Ivica",
+            "sex": "F"
+          }
+        ],
+        "12-16": [
+          {
+            "name": "Albína",
+            "sex": "F"
+          }
+        ],
+        "12-17": [
+          {
+            "name": "Kornélia",
+            "sex": "F"
+          }
+        ],
+        "12-18": [
+          {
+            "name": "Sláva",
+            "sex": "F"
+          },
+          {
+            "name": "Slávka",
+            "sex": "F"
+          }
+        ],
+        "12-19": [
+          {
+            "name": "Judita",
+            "sex": "F"
+          }
+        ],
+        "12-20": [
+          {
+            "name": "Dagmara",
+            "sex": "F"
+          }
+        ],
+        "12-21": [
+          {
+            "name": "Bohdan",
+            "sex": "M"
+          },
+          {
+            "name": "Noel",
+            "sex": "M"
+          }
+        ],
+        "12-22": [
+          {
+            "name": "Adela",
+            "sex": "F"
+          }
+        ],
+        "12-23": [
+          {
+            "name": "Nadežda",
+            "sex": "F"
+          },
+          {
+            "name": "Naďa",
+            "sex": "F"
+          }
+        ],
+        "12-24": [
+          {
+            "name": "Adam",
+            "sex": "M"
+          },
+          {
+            "name": "Eva",
+            "sex": "F"
+          }
+        ],
+        "12-26": [
+          {
+            "name": "Štefan",
+            "sex": "M"
+          }
+        ],
+        "12-27": [
+          {
+            "name": "Filoména",
+            "sex": "F"
+          }
+        ],
+        "12-28": [
+          {
+            "name": "Ivana",
+            "sex": "F"
+          },
+          {
+            "name": "Ivona",
+            "sex": "F"
+          }
+        ],
+        "12-29": [
+          {
+            "name": "Milada",
+            "sex": "F"
+          },
+          {
+            "name": "Nátan",
+            "sex": "M"
+          }
+        ],
+        "12-30": [
+          {
+            "name": "Dávid",
+            "sex": "M"
+          }
+        ],
+        "12-31": [
+          {
+            "name": "Silvester",
+            "sex": "M"
+          }
+        ]
+      }
+    }
+  }
+}

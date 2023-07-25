@@ -46,7 +46,16 @@
     </div>
 
     <div class="namedays">
-        <!-- TODO -->
+        <h2>Today's nameday: {{ nameday | join(", ") }}</h2>
+        {% if not nameday_events %}
+            <p class="no_entries">No entries.</p>
+        {% endif %}
+
+        {% for person in nameday_events %}
+            <div class="nameday_today">
+                <p class="name"><a class="name_action" href="{{ url_for('events.update', id=person['id']) }}">{{ person['name'] }}</a></p>
+            </div>
+        {% endfor %}
     </div>
 
     {% endif %}
