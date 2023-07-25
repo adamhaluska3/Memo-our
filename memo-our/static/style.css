@@ -122,9 +122,23 @@ nav ul li a, nav ul li span, header .action {
     padding-left: inherit 50%;
 }
 
+
+.content_body {
+    display: flex;
+}
+
+.no_entries {
+    color: gray;
+    text-align: center;
+}
+
 .birthdays {
+    float: left;
+    width: 50%;
+
     background-color: rgb(230, 230, 230);
     padding-bottom: 0.5em;
+    margin-right: 0.2em;
     border-radius: 10px;
 }
 
@@ -173,6 +187,27 @@ nav ul li a, nav ul li span, header .action {
     border-radius: 10px;
 }
 
+
+.namedays {
+    float: right;
+    width: 50%;
+
+    margin-left: 0.2em;
+    border-radius: 10px;
+    background-color: rgb(230, 230, 230);
+}
+
+.namedays > h2 {
+    text-align: center;
+}
+
+.nameday_today {
+    padding: 0.5em;
+    margin: 0.5em 0.5em;
+    background-color: rgb(255, 183, 49);
+    border-radius: 10px;
+
+}
 
 input.danger {
     color: #cc2f2e;

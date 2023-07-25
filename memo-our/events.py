@@ -1,8 +1,10 @@
 from flask import (
     Blueprint, flash, g, redirect, render_template, request, url_for
 )
-
 from werkzeug.exceptions import abort
+
+import json
+from datetime import date
 
 from .auth import login_required
 from .db import get_db
@@ -15,12 +17,41 @@ bp = Blueprint("events", __name__)
 def index():
     db = get_db()
     events = db.execute(
-        'SELECT e.id, name, birth_date, remaining_days, age,'
-        ' u.username FROM events_data AS e JOIN user AS u'
+        'SELECT e.id, name, first_name, birth_date, remaining_days,'
+        ' age, u.username FROM events_data AS e JOIN user AS u'
         ' ON e.author_id = u.id ORDER BY remaining_days'
     ).fetchall()
 
-    return render_template('events/index.html', events=events)
+    nameday_names = get_nameday_names()
+    # nameday_names = ['Vladimír']
+    print(nameday_names)
+
+    # nameday_placeholders = ", ".join('?' * len(nameday_names))
+    # nameday_fillers = f'{", ".join(name for name in nameday_names)}'
+    nameday_events = db.execute(
+        f'''SELECT id, name, first_name, age FROM events_data WHERE
+           first_name IN ({', '.join(f"'{name}'" for name in nameday_names)})
+           ORDER BY age DESC'''
+           ).fetchall()
+
+    return render_template('events/index.html',
+                           events=events, nameday=nameday_names,
+                           nameday_events=nameday_events)
+
+
+def get_nameday_names():
+    nameday_names = []
+    today = date.today().strftime("%m-%d")
+
+    nameday_db = open("memo-our/nameday_data/SK.json")
+
+    loaded_nameday_db = json.load(nameday_db)
+    today_entries = loaded_nameday_db['namedays']['SK']['days'][today]
+
+    for entry in today_entries:
+        nameday_names.append(entry['name'])
+
+    return nameday_names
 
 
 @bp.route('/create', methods=('GET', 'POST'))
