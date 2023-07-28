@@ -16,27 +16,39 @@ bp = Blueprint("events", __name__)
 @bp.route('/')
 def index():
     db = get_db()
-    events = db.execute(
+    today_events = db.execute(
         'SELECT e.id, name, first_name, birth_date, remaining_days,'
         ' age, u.username FROM events_data AS e JOIN user AS u'
-        ' ON e.author_id = u.id ORDER BY remaining_days'
+        ' ON e.author_id = u.id WHERE remaining_days = 0 ORDER BY age DESC'
+    ).fetchall()
+
+    future_events = db.execute(
+        'SELECT e.id, name, first_name, birth_date, remaining_days,'
+        ' age, u.username FROM events_data AS e JOIN user AS u'
+        ' ON e.author_id = u.id WHERE remaining_days > 0 ORDER BY age DESC'
+    )
+
+    past_events = db.execute(
+        'SELECT e.id, name, first_name, birth_date, remaining_days, age, u.username,'
+        ' strftime("%j", "now") - date(strftime("%Y", "now") + 1, strftime("%m", "now"), strftime("%d", "now")) AS future_remaining_days'
+        ' FROM events_data AS e JOIN user AS u'
+        ' ON e.author_id = u.id WHERE remaining_days < 0 ORDER BY future_remaining_days ASC'
     ).fetchall()
 
     nameday_names = get_nameday_names()
-    # nameday_names = ['Vladimír']
-    print(nameday_names)
 
-    # nameday_placeholders = ", ".join('?' * len(nameday_names))
-    # nameday_fillers = f'{", ".join(name for name in nameday_names)}'
     nameday_events = db.execute(
         f'''SELECT id, name, first_name, age FROM events_data WHERE
            first_name IN ({', '.join(f"'{name}'" for name in nameday_names)})
            ORDER BY age DESC'''
            ).fetchall()
 
-    return render_template('events/index.html',
-                           events=events, nameday=nameday_names,
-                           nameday_events=nameday_events)
+    return render_template(
+        'events/index.html',
+        today_events=today_events, future_events=future_events,
+        past_events=past_events,
+        nameday=nameday_names, nameday_events=nameday_events
+        )
 
 
 def get_nameday_names():
