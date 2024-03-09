@@ -2,6 +2,8 @@
 
 <title>Memo-our</title>
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 
 <nav>
     <h1> <a href="{{ url_for('index') }}">Memo-our</a></h1>
@@ -26,4 +28,8 @@
     <div class="content_body">
     {% block content %}{% endblock %}
     </div>
+</section>
+
+<section class="weather">
+    {% block weather %}{% endblock %}
 </section>

@@ -94,8 +94,8 @@ def create():
 
     return render_template('events/create.html')
 
-
 @bp.route('/<int:id>/update', methods=('GET', 'POST'))
+@login_required
 def update(id):
     event = get_event(id)
 

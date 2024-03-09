@@ -63,3 +63,29 @@
     </div>
 
 {% endblock %}
+
+
+{% block weather %}
+<h2>Today's weather:</h2>
+<p id="temperature">Loading...</p>
+
+<script>
+    const elem = document.getElementById("temperature");
+
+    window.onload = function get_temperature(){
+        fetch("https://api.openweathermap.org/data/2.5/weather?lat=49.1951&lon=16.6068&units=metric&appid=d80ab3acd77676e950ca31ab07cc0a8e")
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error();
+                }
+                return response.json();
+            })
+            .then(data => {
+                elem.textContent = JSON.stringify(data.main.temp) + "°C";
+            })
+            .catch(error => { 
+                elem.textContent = "ERR";
+            })
+    }
+</script>
+{% endblock %}
